@@ -36,7 +36,7 @@ describe "#translate" do
     expect(s).to eq("errychay")
   end
 
-  it "translates two words" do
+   it "translates two words" do
     s = translate("eat pie")
     expect(s).to eq("eatay iepay")
   end
